@@ -73,34 +73,3 @@ form.addEventListener('submit', function(e){
   checkEmail(email)
   checkPasswordsMatch(password, password2)
 })
-
-// Event listener with a bunch of if's, not the best case. It's not very clean
-// form.addEventListener('submit', e => {
-//   e.preventDefault()
-  
-//   if(username.value === ''){
-//     showError(username, 'Username is required')
-//   } else{
-//     showSucess(username)
-//   }
-
-//   if(email.value === ''){
-//     showError(email, 'Email is required')
-//   } else if(!checkEmail(email.value)){
-//     showError(email, 'Email is not valid')
-//   } else{
-//     showSucess(email)
-//   }
-
-//   if(password.value === ''){
-//     showError(password, 'Password is required')
-//   } else{
-//     showSucess(password)
-//   }
-
-//   if(password2.value === ''){
-//     showError(password2, 'Password 2 is required')
-//   } else{
-//     showSucess(password2)
-//   }
-// })
